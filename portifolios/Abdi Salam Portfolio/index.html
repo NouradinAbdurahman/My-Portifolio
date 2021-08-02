@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio Using HTML && CSS && Js">
+    <meta name="keywords" content="HTML && CSS && Js">
+    <link rel="icon" href="./imges/My Images/me1.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./CSS/resbonsive.css">
+    <link rel="stylesheet" href="CSS/fontawesome-free-5.14.0-web/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>AbdiSalam</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="header">
+                    <div class="logo">
+                        <h1 class="logo-content"><a href="./index.html" draggable="false">AbdiSalam</a></h1>
+                    </div>
+                    <div class="navBar">
+                        <ul class="unlisted-style">
+                            <div class="menuClose"><i class="fas fa-times fa-lg" onclick="toggleClose()"></i></div>
+                            <li><a href="./index.html">home</a></li>
+                            <li><a href="#portfolio">portfolio</a></li>
+                            <li><a href="#skills-section">skills</a></li>
+                            <li class="active"><a href="#about-me-section">about me</a></li>
+                            <li><a href="./CV PDF/Abdisalan's Resume.pdf" target="_blank">open CV</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="bars"><i class="fas fa-bars fa-2x" onclick="toggleShow()"></i></div>
+    </header>
+    <div class="social-site">
+        <a href="#" target="_blank"> <i class="fab fa-github fa-lg"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook fa-lg"></i></i></a>
+    </div>
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-content-info">
+                    <h5 class="intro-content-info-one">hi,</h5>
+                    <h2 class="intro-content-info-two">i'm <span>AbdiSalam</span>,</h2>
+                    <h2 class="intro-content-info-three">i'm <span class="small">a</span> <span class="full">full</span><span class="stack">-stack</span> web developer & <span class="java">java</span> developer.</h2>
+                    <button class="intro-button"><i class="fas fa-download "></i><a href="./CV PDF/Abdisalan's Resume.pdf" download="CV" >download CV</a></button>
+                </div>
+        
+                <div class="intro-content-img">
+                    <img src="./imges/My Images/me1.jpg" alt="my picture" draggable="false">
+                </div>
+            </div>
+        </div>  
+        <div class="scroll-down"><a href="#portfolio"><i class="fas fa-long-arrow-alt-down icon fa-2x"></i></a></div>
+    </section>
+     
+    <!-- Portfolio -->
+    <div id="portfolio" class="pd-y">
+      <div class="container">
+          <h2 class="portfolio-title">portfolio:</h2>
+        <div class="portfolio-content ">
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="./index.html" target="_blank"><img src="imges/Portfolio Images/project1.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project2.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project3.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project4.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project5.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project6.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project7.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project8.png" alt="picture" ></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="prtfolio-item-img">
+                    <a href="#" target="_blank"><img src="imges/Portfolio Images/project9.png" alt="picture" ></a>
+                </div>
+            </div>
+            
+            
+        </div>
+      </div>
+    </div> <!-- ./Portfolio -->
+
+    <!--skilss  -->
+    <section id="skills-section" class="pd-y">
+        <div class="container">
+           <div class="skills pd-y">
+               <h2 class="skills-title">skills overview:</h2>
+               <div class="skills-content pd-y">
+                   <div class="skills-item">
+                       <div class="skills-img"><img src="./imges/Icon Image/frontend-icon.svg"  alt="picture"></div>
+                       <h2 class="skills-item-title">frontend</h2>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>HTML / CSS / bootstrap</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>javaScript</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>react</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>node.js</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>webpack/gulp/grunt</p>
+                   </div>
+                   <div class="skills-item">
+                       <div class="skills-img"><img src="./imges/Icon Image/backend-icon.svg"  alt="picture"></div>
+                       <h2 class="skills-item-title">backend</h2>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>java</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>MongoDB</p>
+                   </div>
+                   <div class="skills-item">
+                       <div class="skills-img"><img src="./imges/Icon Image/other-skills-icon.svg"  alt="picture"></div>
+                       <h2 class="skills-item-title">others</h2>
+                       <span class="skills-item-info-title">languages i speak:</span>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>english</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>arabic</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>somalia</p>
+                       <p class="skills-item-content"><i class="fas fa-check icon"></i>swedish</p>
+                   </div>
+                   
+               </div>
+           </div>
+        </div>
+    </section>
+    <!--./skilss  -->
+
+    <!-- about me -->
+    <section id="about-me-section" class="pd-y">
+        <div class="container">
+            <div class="about-me pd-y">
+                <div class="about-me-content">
+                    <div class="about-me-item">
+                        <div class="about-me-img"><img src="./imges/My Images/me1.jpg" alt="picture" draggable="false"></div>
+                        <h2 class="about-me-title">about me</h2>
+                        <h3 class="about-me-info">i'm <span class="small">a</span> full stack web developer & java developer</h3>
+                        <p class="about-me-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quod excepturi quibusdam recusandae totam mollitia, quae neque voluptates porro corrupti perferendis quos consequuntur eveniet optio earum tempora ipsum culpa harum ducimus suscipit sunt! Quaerat impedit vero ipsum sed atque possimus obcaecati nisi repellendus est illo maiores veniam quas incidunt ab architecto eaque, Deserunt reprehenderit laudantium vitae in aliquid, omnis temporibus nostrum.</p>
+                        <button class="about-me-button"><i class="fas fa-download"></i><a href="./CV PDF/Abdisalan's Resume.pdf"  download="CV">download CV</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-social">
+            <div class="footer-social-content"><h3 class="footer-social-title">follow</h3></div>
+                <a href="#" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook fa-lg"></i></i></a>
+        </div>
+        <div class="developer">
+            <p>
+                &copy; 
+                <script>document.write(new Date().getFullYear())</script>  
+                , designed & developed by nouradin.
+            </p>
+        </div>
+    </footer>
+    <script src="./Js/main.js"></script>
+</body>
+</html>

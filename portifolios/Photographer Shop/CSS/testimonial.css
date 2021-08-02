@@ -1,0 +1,45 @@
+.tesimonial{
+    position: relative;
+    background-image: url("../images/background/background3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
+.tesimonial-content{
+    overflow: hidden;
+    padding: 140px 10px;
+    width: 95%;
+    margin: auto;
+}
+.tesimonial-content-item-layer img{
+    width: 15%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tesimonial-content-item{
+    width: 46%;
+    float: left;
+    color: #fff;
+    margin: 0 2%;
+}
+.tesimonial-content-item-layer{
+    padding: 10px 0 20px 90px ;
+    position: relative;
+}
+.tesimonial-content-item-name{
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.tesimonial-content-item-jop{
+    text-transform: uppercase;
+    color: #6195ff;
+}
+.tesimonial-content-item-desc{
+    line-height: 1.4;
+}

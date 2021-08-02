@@ -1,0 +1,31 @@
+.numbers{
+    position: relative;
+    background-image: url("../images/background/background2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.numbers-item{
+    overflow: hidden;
+    padding: 100px 0;
+}
+.number-item{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.numbers-item.icon{
+    margin-bottom: 15px;
+}
+.number-item-number{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+.number-item-desc{
+    color: white;
+    text-transform: capitalize;
+}

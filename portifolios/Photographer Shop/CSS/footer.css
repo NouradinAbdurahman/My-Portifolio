@@ -1,0 +1,35 @@
+.footer{
+    background-color: #1c1d21;
+    text-align: center;
+}
+.footer-img img{
+    padding: 60px 0 0 0 ;
+}
+.footer-content{
+    padding: 30px 0;
+}
+.footer-content li{
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+}
+.footer-content li:hover{
+    opacity: 0.8;
+}
+.footer-content li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #6195FF;
+    border-radius: 5px;
+    color: white;
+    line-height: 50px;
+}
+.footer-copyright{
+    padding: 0 0 50px 0;
+    color: #999;
+    text-transform: uppercase;
+}
+.footer-copyright span{
+    color: #6195FF;
+}

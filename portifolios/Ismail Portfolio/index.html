@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="App Developer">
+    <meta name="description" content="This My PORTFOLIO Page">
+    <link rel="icon" href="Images/Logo/logo.png">
+    <link rel="stylesheet" href="fontawesome-free-5.13.1-web/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Ismail Abdurahman</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h3><a href="index.html" draggable="false"> ismail</a></h3>
+            </div>
+            <ul class="nav">
+                <li><a href="https://instagram.com/flutter.widgets?igshid=1m4u3ebziced0" target="_blank">instagram posted</a></li>
+                <li><a href="SimplyArduino.pdf" id="download" target="_blank">download cv</a></li>
+                <li class="toggle"><a href="#"><span class="bars"></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- For Mobile -->
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html" draggable="false"> ismail</a></li>
+            <li class="items"><a href="https://instagram.com/flutter.widgets?igshid=1m4u3ebziced0" target="_blank">instagram posted</a></li>
+            <li class="items"><a href="#">download cv</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="intro">
+            <p class="intro-hello">Hello,</p>
+            <p class="intro-name">i'm ismail</p>
+            <p class="intro-skills">i am Software Developer & mobile.</p>
+        </div>
+        <div class="skills">
+            <p class="Bio">&gt; Lorem ipsum dolor sit amet consectetur,<br> &gt; Lorem ipsum dolor sit amet consectetur<br> &gt; Lorem ipsum dolor sit amet consectetur.<br> &gt; Lorem ipsum dolor sit amet consectetur.<br>
+            </p>
+            <button class="install"><i class="fab fa-google-play"></i><a href="SimplyArduino.pdf" id="download" target="_blank">download cv</a></button>
+
+        </div>
+        <div class="projects">
+            <div class="projects-content-info">
+                <div class="myprojects">
+                    <h3>Projects.</h3>
+                    <h4>&gt; Name Of The Project</h4>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, pariatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, laboriosam exercitationem quos dolore labore neque ut debitis earum, quidem, accusamus aspernatur
+                    vitae maxime cum sed at dicta hic architecto consequatur.</p>
+
+                <button class="install"><i class="fab fa-google-play"></i>install</button>
+            </div>
+            <div class="projects-content-image">
+                <img src="images/Projects/pic1.jpg" alt="" draggable="false">
+            </div>
+        </div>
+        <div class="projects">
+            <div class="projects-content-info">
+                <div class="myprojects">
+                    <h4>&gt; Name Of The Project</h4>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, pariatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, laboriosam exercitationem quos dolore labore neque ut debitis earum, quidem, accusamus aspernatur
+                    vitae maxime cum sed at dicta hic architecto consequatur.</p>
+
+                <button class="install"><i class="fab fa-google-play"></i>install</button>
+            </div>
+            <div class="projects-content-image">
+                <img src="images/Projects/jeremy-semanhyia-oYbXQvumPBU-unsplash.jpg" alt="" draggable="false">
+            </div>
+        </div>
+
+        <div class="about-me">
+            <h3 class="mySkills">My Skills:</h3>
+            <div class="about-me-content">
+                <img src="Images/Skills Picturs/flutter.png" alt="Flutter" draggable="false">
+                <h4>Flutter</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, error!</p>
+            </div>
+            <div class="about-me-content">
+                <img src="Images/Skills Picturs/java.png" alt="Java" draggable="false">
+                <h4>Java</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, error!</p>
+            </div>
+            <div class="about-me-content">
+                <img src="Images/Skills Picturs/xmll.png" alt="XML" draggable="false">
+                <h4>XML</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, error!</p>
+            </div>
+            <div class="about-me-content">
+                <img src="Images/Skills Picturs/languages.png" alt="languages" draggable="false">
+                <h4>Languages I Speak:</h4>
+                <p>Somalia</p>
+                <p>Arabic</p>
+                <p>English</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="social">
+        <div class="social-content">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fas fa-envelope-open-text"></i></a>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+        <a href="#"><i class="fas fa-envelope-open-text"></i></a>
+    </div>
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Designed & developed by Nouradin.</p>
+    </footer>
+    <script>
+        function download(file) {
+            var link = document.getElementById("download");
+            link.setAttribute("download", file);
+            link.click()
+        };
+
+
+        $(function() {
+
+            $(".toggle").on("click", function() {
+                if ($(".items").hasClass("active")) {
+                    $(".items").removeClass("active");
+                } else {
+                    $(".items").addClass("active");
+
+                }
+            })
+
+        })
+    </script>
+</body>
+
+</html>

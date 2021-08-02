@@ -1,0 +1,336 @@
+@media screen and (min-width: 1800px) {
+    .logo-content a{
+        font-size: 80px;
+    }
+    .navBar .unlisted-style li{
+        padding: 25px 15px;
+     }
+    .navBar .unlisted-style li a{
+        font-size: 30px;
+    }
+    .navBar .unlisted-style li a::after{
+        height: 5px;
+    }
+    .intro{
+        padding: 350px 0 685px 0 ;
+    }
+    .intro-content-info-one{
+        font-size: 40px;
+    }
+    .intro-content-info-two{
+        font-size: 60px;
+    }
+    .intro-content-info-three{
+        font-size: 65px;
+    }
+    .intro-button{
+        min-width: 200px;
+        padding: 15px;
+    }
+    .intro-button i {
+        font-size: 25px;
+    }
+    .intro-button a{
+        font-size: 25px;
+    }
+    .scroll-down i{
+        font-size: 70px;
+    }
+ 
+    .social-site a i{
+        font-size: 50px;
+        padding: 25px 0;
+    }
+    .portfolio-title{
+        font-size: 50px;
+    }
+    .portfolio-content{
+        grid-gap: 25px;
+    }
+    .skills .skills-title{
+        font-size: 50px;
+    }
+    .skills-item-content{
+        line-height: 1.8;
+        font-size: 25px;
+    }
+    .skills-item-title{
+        padding: 30px 0 10px 0;
+    }
+    .skills-content .skills-img{
+        padding: 30px;
+    }
+    .about-me-item{
+        padding: 100px 50px 100px 500px;
+    }
+    .about-me-title{
+        padding: 0 0 10px 0;
+        font-size: 35px;
+    }
+    .about-me-info{
+        padding: 0 0 15px 0 ;
+        font-size: 30px;
+    }
+    .about-me-desc{
+        font-size: 25px;
+    }
+    .about-me-button{
+        min-width: 200px;
+        padding: 15px;
+    }
+    .about-me-button i {
+        font-size: 25px;
+    }
+    .about-me-button a{
+        font-size: 25px;
+    }
+    footer .developer{
+        height: 70px;
+        padding: 15px 0 ;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .pd-y{
+        padding: 50px 0;
+    }
+    .intro{
+        padding: 150px 0 385px 0 ;
+    }
+    header .bars{
+        visibility: visible;
+        opacity: 1;
+    }
+    .menuClose{
+        visibility: visible;
+        opacity: 1;
+    }
+    .navBar{
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .navBar .unlisted-style{
+        background-color: #101119;
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 0 0 ;
+        padding: 40px 40px 0 0;
+        transition: left 0.5s ease-in-out;
+    }
+    .navBar .unlisted-style li{
+        display: flex;
+        flex-direction: column;
+    }
+    .navBar .unlisted-style li a::after{
+        display: none;
+    }
+    .navBar .unlisted-style li a:first-child{
+        padding: 10px 0 0 0;
+    }
+    .intro-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .intro-content-img{
+       width: 50%;
+       padding: 0 0 10px 0;
+    }
+    .intro-content-img img{
+        margin: 0;
+    }
+    .portfolio-content{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .scroll-down{
+        display: none;
+    }
+    .skills-item{
+        padding: 10px ;
+        line-height: 1.8;
+    }
+    .skills-item-title{
+        padding: 50px 0 10px 0;
+    }
+    .about-me-item{
+        position: relative;
+        margin: auto;
+        padding: 50px 20px 30px 270px;
+    }
+    .about-me-img img{
+        left: 3%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .intro{
+        padding: 150px 0 155px 0 ;
+    }
+    .about-me-item{
+        padding: 50px 20px 30px 230px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .pd-y{
+        padding: 50px 0;
+    }
+  
+    .intro{
+        padding: 150px 0 100px 0 ;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    header .bars{
+        visibility: visible;
+        opacity: 1;
+    }
+    .menuClose{
+        visibility: visible;
+        opacity: 1;
+    }
+    .navBar{
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .navBar .unlisted-style{
+        background-color: #101119;
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 0 0 ;
+        padding: 40px 40px 0 0;
+        transition: left 0.5s ease-in-out;
+    }
+    .navBar .unlisted-style li{
+        display: flex;
+        flex-direction: column;
+    }
+    .navBar .unlisted-style li a::after{
+        display: none;
+    }
+    .navBar .unlisted-style li a:first-child{
+        padding: 10px 0 0 0;
+    }
+    .intro-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .intro-content-img{
+       width: 50%;
+       padding: 0 0 50px 0;
+    }
+    .intro-content-info{
+        grid-column: 1/4;
+    }
+    .intro-content-img img{
+        width: 100%;
+        margin-left: 0;
+        border-radius: 50%;
+        transform: rotate(30deg);
+    }
+    .scroll-down{
+        display: none;
+    }
+    .portfolio-content{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .portfolio-title{
+        padding: 40px 0;
+        color: whitesmoke;
+    }
+    .skills-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .skills.pd-y{
+        padding: 0;
+    }
+    .skills-item{
+        margin: 25px 0;
+    }
+    .social-site a i{
+        font-size: 25px;
+        padding: 17px 0;
+    }
+    .social-site.change{
+        display: none;
+        /* display: block; */
+    }
+    .about-me-item{
+        position: relative;
+        margin: auto;
+        padding: 20px 20px 30px 30px;
+    }
+    .skills-item-content{
+        line-height: 1.8;
+        font-size: 20px;
+    }
+    .about-me-img{
+        display: none;
+    }
+    .about-me-desc{
+    color: #333;
+    }
+}
+@media screen and (max-width: 500px) {
+    .pd-y{
+        padding: 100px 0;
+    }
+   .intro-content-info-two{
+       font-size: 1.5rem;
+    }
+   .intro-content-info-three{
+    font-size: 1.5rem;
+    }
+    .intro-content-info-one{
+        padding-top: 0px;
+    }
+    .scroll-down i{
+        animation: scroll 0.5s ease-in-out  infinite normal both;
+        cursor: pointer;
+    }
+    .skills.pd-y{
+        padding: 0;
+    }
+    .skills-item{
+        padding: 20px ;
+    }
+    .skills-content .skills-img{
+        padding: 15px;
+    }
+    .skills-item-title{
+        padding: 30px 0 10px 0;
+    }
+    .about-me-desc{
+    color: #333;
+    }
+    .about-me-item{
+        padding: 20px 10px 10px 10px;
+    }
+    footer .developer{
+        font-size: 15px;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 320px) {
+    .intro{
+        padding: 110px 0 100px 0 ;
+    }
+    .scroll-down{
+        bottom: 0;
+    }
+}

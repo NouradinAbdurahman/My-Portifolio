@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+$sedans-background: hsl(31, 77%, 52%);
+$suvs-background: hsl(184, 100%, 22%);
+$luxury-background: hsl(179, 100%, 13%);
+$paragraphs:hsla(0, 0%, 100%, 0.75);
+$background-headings-buttons:hsl(0, 0%, 95%);
+$Font-size: 15px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: $background-headings-buttons;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container {
+    .cards {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: auto;
+        padding: 12em 12em 5em 12em;
+        .card{
+            padding: 25px;
+            .card-img {
+                width: 100%;
+                margin-bottom: 1.5em;
+            }
+            .card-title {
+                color: $background-headings-buttons;
+                text-transform: capitalize;
+                margin-bottom: 1.5em;
+            }
+            .card-content {
+                margin-bottom: 2.5em;
+                color: $paragraphs;
+            }
+            .button {
+                width: 100px;
+                height: 50px;
+                text-transform: capitalize;
+                background: $background-headings-buttons;
+                border: navajowhite;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+            .button:hover {
+                color: #000;
+                transition: 0.5s ease-in-out;
+            }
+            .button-card-one {
+                color: $sedans-background;
+            }
+            .button-card-two {
+                color: $suvs-background;
+            }
+            .button-card-three {
+                color: $luxury-background;
+            }
+        }
+        .card-one {
+            background: $sedans-background;
+        }
+        .card-two {
+            background: $suvs-background;
+        }
+        .card-three {
+            background: $luxury-background;
+        }
+    }
+}
+.attribution {
+    text-align: center;
+    text-transform: capitalize;
+    .Challenged {
+        color: $luxury-background;
+        a {
+            color: $sedans-background;
+            font-weight: bold;
+        }
+    }
+    .Coded {
+        color: $suvs-background;
+        a {
+            color: $sedans-background;
+            font-weight: bold;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        .cards {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 2em 1em 2em 1em;
+            .card{
+                padding: 35px;
+        }
+        
+        }
+    
+    }
+    .attribution {
+        font-size: .9em;
+        padding-bottom: 2em;
+        .Coded {
+            color: $suvs-background;
+            a {
+                color: $sedans-background;
+                font-weight: bold;
+            }
+        }
+    }
+}

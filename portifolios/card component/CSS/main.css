@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin: auto;
+  padding: 12em 12em 5em 12em;
+}
+
+.container .cards .card {
+  padding: 25px;
+}
+
+.container .cards .card .card-img {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.container .cards .card .card-title {
+  color: #f2f2f2;
+  text-transform: capitalize;
+  margin-bottom: 1.5em;
+}
+
+.container .cards .card .card-content {
+  margin-bottom: 2.5em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.container .cards .card .button {
+  width: 100px;
+  height: 50px;
+  text-transform: capitalize;
+  background: #f2f2f2;
+  border: navajowhite;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.container .cards .card .button:hover {
+  color: #000;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.container .cards .card .button-card-one {
+  color: #e38826;
+}
+
+.container .cards .card .button-card-two {
+  color: #006970;
+}
+
+.container .cards .card .button-card-three {
+  color: #004241;
+}
+
+.container .cards .card-one {
+  background: #e38826;
+}
+
+.container .cards .card-two {
+  background: #006970;
+}
+
+.container .cards .card-three {
+  background: #004241;
+}
+
+.attribution {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.attribution .Challenged {
+  color: #004241;
+}
+
+.attribution .Challenged a {
+  color: #e38826;
+  font-weight: bold;
+}
+
+.attribution .Coded {
+  color: #006970;
+}
+
+.attribution .Coded a {
+  color: #e38826;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .container .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+  }
+  .container .cards .card {
+    padding: 35px;
+  }
+  .attribution {
+    font-size: .9em;
+    padding-bottom: 2em;
+  }
+  .attribution .Coded {
+    color: #006970;
+  }
+  .attribution .Coded a {
+    color: #e38826;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=main.css.map */

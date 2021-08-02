@@ -1,0 +1,70 @@
+.portifolio {
+    width: 100%;
+    height: 100vh;
+    text-transform: capitalize;
+}
+.portifolio-title h2 {
+    font-size: 2.5rem;
+    padding: 4rem 0;
+}
+.portifolio-content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.portifolios .portifolios-content img{
+    width: 100%;
+
+}
+.portifolios {
+    position: relative;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+.portifolios-overflow {
+    position: absolute;
+    content: " ";
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.portifolios:hover .portifolios-overflow {
+    visibility: visible;
+    opacity: 1;
+}
+.portifolios-overflow-content {
+    /* background: chartreuse; */
+    width: 100%;
+    height: 100%;
+    padding: 35px 10px;
+    color: white;
+}
+.portifolios-overflow-icon {
+    text-align: center;
+}
+.portifolios-overflow-icon a i {
+    color: white;
+    font-size: 2rem;
+}
+.portifolios-overflow-icon a:hover i {
+    color: orange;
+    transition: all .5s ease-in-out;
+}
+.portifolios-overflow-info {
+    margin-top: 1.1rem;
+}
+.portifolios-overflow-info-title {
+    margin-bottom: 1rem;
+    color: orange;
+    cursor: text;
+}
+.portifolios-overflow-info-content {
+    font-size: .9rem;
+    line-height: 1.5;
+    cursor: text;
+}

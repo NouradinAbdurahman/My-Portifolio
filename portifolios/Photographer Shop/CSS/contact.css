@@ -1,0 +1,83 @@
+.contact-content{
+    overflow: hidden;
+}
+.contact-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.contact-item.mg{
+    margin: 0 5%;
+}
+.contact-item-title{
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.contact-item-desc{
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #999;
+}
+.contact-info{
+    padding: 50px 0;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.contact-form{
+    display: block;
+    text-align: center;
+}
+input{
+    border: none;
+    outline: none;
+    color: #999;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+input:focus{
+    border: 2px solid black;
+}
+input[type="text"]{
+    background-color: #f9f9f9;
+    height: 40px;
+    margin: 5px 0;
+    width: 395px;
+}
+input[type="email"]{
+    background-color: #f9f9f9;
+    height: 40px;
+    width: 395px;
+
+
+}
+form #supject{
+  width: 100%;
+ 
+}
+textarea{
+    background-color: #f9f9f9;
+    width: 100%;
+    margin: 5px 0 0 0;
+    border: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #999;
+
+}
+input[type="submit"]{
+    background-color: #6195FF;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    height: 55px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    opacity: 0.8;
+}
