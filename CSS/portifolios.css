@@ -1,67 +1,91 @@
 .portifolio {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     text-transform: capitalize;
+    background-color: #faf7f0a6;
+    padding-bottom: 10rem;
 }
 .portifolio-title h2 {
     font-size: 2.5rem;
-    padding: 4rem 0;
+    padding: 6rem 0;
+    text-align: center;
 }
 .portifolio-content {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
 }
 .portifolios .portifolios-content img{
     width: 100%;
-
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .portifolios {
     position: relative;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 .portifolios-overflow {
     position: absolute;
     content: " ";
-    bottom: 0;
     top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.8);
+    height: 0;
+    background-color: rgba(0,0,0,.9);
     visibility: hidden;
     opacity: 0;
-    transition: opacity .5s ease-in-out;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    transition: height .5s ease-in-out;
+    -webkit-transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+    -ms-transition: height .5s ease-in-out;
+    -o-transition: height .5s ease-in-out;
 }
 .portifolios:hover .portifolios-overflow {
     visibility: visible;
     opacity: 1;
+    height: 100%;
 }
 .portifolios-overflow-content {
-    /* background: chartreuse; */
     width: 100%;
     height: 100%;
-    padding: 35px 10px;
+    padding: 50px 10px;
     color: white;
+    position: relative;
 }
 .portifolios-overflow-icon {
     text-align: center;
-}
-.portifolios-overflow-icon a i {
-    color: white;
-    font-size: 2rem;
-}
-.portifolios-overflow-icon a:hover i {
-    color: orange;
-    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 .portifolios-overflow-info {
-    margin-top: 1.1rem;
+    margin-top: 3rem;
 }
 .portifolios-overflow-info-title {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: orange;
-    cursor: text;
 }
 .portifolios-overflow-info-content {
     font-size: .9rem;
