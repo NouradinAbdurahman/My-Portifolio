@@ -1,0 +1,69 @@
+.skills {
+    /* background-color: #ededed; */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5rem;
+}
+.skills-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6rem;
+    font-size: 2rem;
+}
+.skills-content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.skillses {
+    width: 100%;
+    text-align: center;
+    text-transform:capitalize;
+    background-color: #e8e8e8;
+    background-color: #fff;
+    box-shadow: .5px .5px 5px rgba(0, 0, 0, 0.651);
+    padding: 2.5rem .9rem;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.skillses:hover {
+    box-shadow: .5px .5px 5px rgb(0, 0, 0);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.skillses:hover h2, p {
+    cursor: text;
+}
+.skillses ul:hover li {
+    cursor: text;
+}
+.skillses h2 , .skills p {
+    padding-bottom: 1rem;
+}
+.skillses img {
+    width: 15%;
+    padding-bottom: 1rem;
+}
+.skillses-list{
+    text-align: start;
+    text-transform: capitalize;
+}
+.skillses-list span {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+.skillses-list ul {
+    margin-left: 20px;
+}
+.skillses-list ul li {
+    padding: 10px;
+   font-size: 20px;
+}

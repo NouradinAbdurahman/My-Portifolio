@@ -17,6 +17,7 @@
 }
 .about-me-content img {
     width: 85%;
+    box-shadow: -10px 10px 1px rgba(255, 166, 0, 0.644);
 }
 .about-me-col-right {
     width: 100%;
@@ -32,5 +33,8 @@
     font-size: 5rem;
     font-weight: bolder;
     color: #999;
-
+    user-select: none;
+}
+.about-me-col-right .about-me-button {
+    background-color: #faf7f07e;
 }

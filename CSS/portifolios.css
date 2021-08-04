@@ -28,6 +28,7 @@
     position: relative;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: .5px .5px 5px #000;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -47,7 +48,7 @@
     visibility: hidden;
     opacity: 0;
     border-radius: 12px;
-    -webkit-border-radius: 12px;
+    -webkit-border-radius: 10px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
@@ -79,16 +80,4 @@
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
-}
-.portifolios-overflow-info {
-    margin-top: 3rem;
-}
-.portifolios-overflow-info-title {
-    margin-bottom: 1.5rem;
-    color: orange;
-}
-.portifolios-overflow-info-content {
-    font-size: .9rem;
-    line-height: 1.5;
-    cursor: text;
 }

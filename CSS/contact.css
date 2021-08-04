@@ -1,0 +1,118 @@
+.contact {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    background: #fff;
+}
+.contact-top {
+    text-align: center;
+    padding: 50px;
+}
+.contact-top i {
+    color: orange;
+    font-size: 20px;
+}
+.contact-top h2 {
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+.contact-top span {
+    padding: 10px;
+}
+.contact-top span i {
+    padding: 5px;
+}
+.contact-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.contact-content-col-left {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.contact-content-col-left img {
+    width: 50%;
+    padding-top: 3rem;
+    user-select: none;
+}
+.contact-content-col-right {
+    width: 100%;
+    height: 100%;
+}
+.contact-content-col-right form {
+    padding: 20px;
+}
+.contact-content-col-right form input {
+    width: 50%;
+    padding: 15px;
+    background: #eee;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.contact-content-col-right form textarea {
+    width: 50%;
+    padding: 15px;
+    background: #eee;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+}
+.contact-content-col-right form .submit button {
+    /* background: cyan; */
+    /* width: 25%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: orange;
+    border: 2px solid #999;
+    cursor: pointer;
+    font-weight: bold;
+    color: #555; */
+    width: 25%;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 2px solid  orange;
+    background: orange;
+    cursor: pointer;
+    color: #555;
+    font-weight: 700;
+}
+.contact-content-col-right form .submit button i {
+    padding-right: 5px;
+}
+.contact-content-col-right form .submit button:hover {
+    color: #000;
+    transition: all .9s ease-in-out;
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    -ms-transition: all .9s ease-in-out;
+    -o-transition: all .9s ease-in-out;
+}
+/* .submit button{
+    width: 25%;
+    padding: 15px;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 2px solid  orange;
+    cursor: pointer;
+    background: #eef;
+    position: relative;
+    color: #555;
+} */
