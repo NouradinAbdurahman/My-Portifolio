@@ -1,0 +1,32 @@
+.footer {
+    position: relative;
+    text-align: center;
+}
+.footer .logo {
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 20px 0 20px 50px;
+    user-select: none;
+}
+.footer .logo img {
+    position: absolute;
+    /* top: 20%;
+    left: 2%; */
+    margin-left: -3.5rem;
+    width: 4%;
+    user-select: none;
+}
+.footer .logo a {
+    color: orange;
+    color: rgb(230, 149, 0);
+    text-transform: uppercase;
+}
+
+.footer span {
+    display: block;
+    color: #000;
+    background-color: rgba(153, 153, 153, 0.384);
+    text-transform: capitalize;
+    padding: 5px;
+    margin-top: 1rem;
+}

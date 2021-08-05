@@ -8,15 +8,19 @@
     <!-- <link rel="stylesheet" href="./CSS/fontawesome-free-5.15.3-web/css/all.min.css"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="icon" href="./images/My Photo/Photo.jpg">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/main.css">
     <title>Nouradin</title>
 </head>
 <body>
    <header>
        <div class="container">
+           <div class="logo">
+                <a href="./index.html" draggable="false"><img src="./images/icons/command line.gif" draggable="false" alt="logo icon"> nouradin</a>
+            </div>
+            <img class="open-menu" id="mobile-cta" src="./images/icons/menu.svg" alt="open navigator">
            <nav>
-               <div class="logo"><a href="./index.html" draggable="false"><img src="./images/icons/command line.gif" draggable="false" alt=""> nouradin</a></div>
                <div class="navbar">
+                    <img id="mobile-exit" class="close-menu" src="./images/icons/close.svg" alt="close bar icon">
                    <ul class="unorder-list">
                        <li><a href="./index.html">home</a></li>
                        <li><a href="#about-me">about me</a></li>
@@ -28,7 +32,7 @@
            </nav>
        </div>
    </header> 
-   <section class="hero">
+   <section class="hero" id="hero">
        <div class="container">
            <div class="hero-content">
                 <div class="hero-col-left">
@@ -179,7 +183,7 @@
                <div class="about-me-col-right">
                 <h2>about me</h2>
                 <span>who am i</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam neque aspernatur explicabo earum et dolores perspiciatis! Amet exercitationem fugiat distinctio nisi doloribus ratione explicabo, esse minus tempore. Repellat hic eos asperiores repudiandae laudantium officia quidem dolorum animi, voluptatibus ut accusamus modi tempore ad eum sequi provident beatae. Accusamus est quibusdam aut et quos fuga odit distinctio cupiditate placeat velit, sapiente iste sint optio reiciendis eius sequi nulla! Ipsum esse, tenetur repudiandae asperiores reprehenderit exercitationem. Numquam ipsam mollitia maiores earum, quas, sapiente ipsa facere perspiciatis, cupiditate debitis a asperiores totam incidunt at cumque quisquam officiis repellat quos obcaecati officia? Qui, expedita.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam neque aspernatur explicabo earum et dolores perspiciatis! Amet exercitationem fugiat distinctio nisi doloribus ratione explicabo, esse minus tempore. Repellat hic eos asperiores repudiandae laudantium officia quidem dolorum animi, voluptatibus ut accusamus modi tempore ad eum sequi provident beatae. Accusamus est quibusdam aut et quos fuga odit distinctio cupiditate placeat velit, sapiente iste sint optio reiciendis eius sequi nulla! Ipsum esse, tenetur repudiandae asperiores reprehenderit exercitationem.</p>
                 <button class="button about-me-button" ><a href="./images/CV/CV.pdf" download="My Resume"><i class="fas fa-file-download"></i>download my resume</a></button>
                </div>
            </div>
@@ -192,25 +196,25 @@
        <div class="container">
            <div class="skills-content">
                <div class="skillses">
-                <img src="./images/icons/analytics.svg" alt="analytics icon">
+                <img src="./images/icons/analytics.svg" draggable="false" alt="analytics icon">
                 <h2>desing</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae qui quam eveniet laborum accusantium ipsum cumque praesentium aperiam explicabo</p>
                </div>
 
                <div class="skillses">
-                <img src="./images/icons/web-programming.svg" alt="web-programming icon">
+                <img src="./images/icons/web-programming.svg" draggable="false" alt="web-programming icon">
                 <h2>web development</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae qui quam eveniet laborum accusantium ipsum cumque praesentium aperiam explicabo</p>
                </div>
 
                <div class="skillses">
-                <img src="./images/icons/camera.svg" alt="camera icon">
+                <img src="./images/icons/camera.svg" draggable="false" alt="camera icon">
                 <h2>Photography</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae qui quam eveniet laborum accusantium ipsum cumque praesentium aperiam explicabo</p>
                </div>
 
                <div class="skillses">
-                <div class="skillses-img"><img src="./images/icons/voice.svg" alt="voice icon"></div>
+                <div class="skillses-img"><img src="./images/icons/voice.svg" draggable="false" alt="voice icon"></div>
                 <h2>languags</h2>
                 <div class="skillses-list">
                     <ul>
@@ -222,7 +226,7 @@
                </div>
 
                <div class="skillses">
-                <div class="skillses-img"><img src="./images/icons/coding.svg" alt="coding icon"></div>
+                <div class="skillses-img"><img src="./images/icons/coding.svg" draggable="false" alt="coding icon"></div>
                 <h2>programming & scripting languages</h2>
                 <div class="skillses-list">
                     <ul>
@@ -235,7 +239,7 @@
                </div>
 
                <div class="skillses">
-                <div class="skillses-img"><img src="./images/icons/frameworks.svg" alt="tools icon"></div>
+                <div class="skillses-img"><img src="./images/icons/frameworks.svg" draggable="false" alt="tools icon"></div>
                 <h2>frameworks</h2>
                 <div class="skillses-list">
                     <ul>
@@ -248,7 +252,7 @@
                </div>
 
                <div class="skillses">
-                <div class="skillses-img"><img src="./images/icons/tools.svg" alt="voice icon"></div>
+                <div class="skillses-img"><img src="./images/icons/tools.svg" draggable="false" alt="voice icon"></div>
                 <h2>tools</h2>
                 <div class="skillses-list">
                     <ul>
@@ -293,5 +297,20 @@
            </div>
        </div>
    </section>
+   <footer id="footer" class="footer">
+       <div class="container">
+           <div class="footer-content">
+            <div class="logo"><a href="./index.html" draggable="false"><img src="./images/icons/command line.gif" draggable="false" alt="logo icon"> nouradin</a></div>
+           </div>
+           <div class="social-media">
+                <a href="https://www.facebook.com/NouradinAbdurahman/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/Nouradin1208" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/nouradiin_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/NouradinAbdurahman" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+       </div>
+       <span>copyright &copy; 2021 all rights reserved.</span>
+   </footer>
+   <script src="./JS/app.js"></script>
 </body>
 </html>

@@ -3,10 +3,11 @@
     height: 100%;
     background: #eee;
     background: #fff;
+    padding-bottom: 5rem;
 }
 .contact-top {
     text-align: center;
-    padding: 50px;
+    padding: 6rem 0 0 0;
 }
 .contact-top i {
     color: orange;
