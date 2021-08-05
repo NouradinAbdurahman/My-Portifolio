@@ -123,13 +123,13 @@ header .logo a {
 } */
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 .hero-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 10em;
+    padding: 5rem 0 15rem 0;
 }
 .hero-col-left {
     padding-top: 5rem;
