@@ -81,3 +81,26 @@
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
 }
+.portifolio .load-more {
+    width: 100%; 
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+.portifolio .load-more button {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid orange;
+    background-color: #faf7f0a6;
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
