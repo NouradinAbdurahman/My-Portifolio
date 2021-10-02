@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/main.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="./index.html"><img src="./images/logo.svg" alt="logo"></a>
+      </div>
+      <img src="./images/icon-hamburger.svg" class="mobile-menu" id="open-menu" alt="icon-hamburger">
+      <nav>
+       <div class="close-mobile">
+        <i class="fas fa-times" class="close-mobile-menu" id="close-menu"></i>
+       </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <button class="btn"><a href="#contact">CONTACT</a></butt>
+        </ul>
+      </nav>
+      </nav>
+    </div>
+  </header>
+
+  <!-- banner -->
+  <section class="banner">
+    <div class="container">
+      <h1>We are creatives</h1>
+      <!-- img -->
+      <a href="#services"><img src="./images/icon-arrow-down.svg" draggable="false" alt="arrow-down"></a>
+    </div>
+  </section>
+
+  <!-- sextion 2  -->
+  <section class="services-1" id="services">
+    <div class="container">
+      <div class="text">
+        <h1>Transform your brand</h1>
+        <p>We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <div>
+          <p class="cta">Learn More</p>
+          <span></span>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./images/desktop/image-transform.jpg" alt="transform" />
+      </div>
+    </div>
+  </section>
+
+  <section class="services-2" id="services">
+    <div class="container">
+      <div class="image">
+        <img src="./images/desktop/image-stand-out.jpg" alt="transform" />
+      </div>
+      <div class="text">
+        <h1>Stand out to the right audience</h1>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        <div>
+          <p class="cta">Learn More</p>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-3">
+      <div class="services-3-content">
+        <div class="left">
+          <div class="text">
+            <h1>Graphic Design</h1>
+            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="text">
+            <h1>Photography</h1>
+            <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  
+  <section class="client" id="client">
+    <h2 class="client-title">client testimonials</h2>
+    <div class="client-content">
+      <div class="client-card">
+        <div class="client-img"><img src="./images/image-emily.jpg" alt="Emily image"></div>
+        <p class="client-info">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <h3 class="client-name">Emily R.</h3>
+        <span class="client-position">Marketing Director</span>
+      </div>
+
+      <div class="client-card">
+        <div class="client-img"><img src="./images/image-thomas.jpg" alt="Thomas image"></div>
+        <p class="client-info">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <h3 class="client-name">Thomas S.</h3>
+        <span class="client-position">Chief Operating Officer</span>
+      </div>
+
+      <div class="client-card">
+      <div class="client-img"><img src="./images/image-jennie.jpg" alt="Jennie image"></div>
+      <p class="client-info">  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+      <h3 class="client-name">Jennie F.</h3>
+      <span class="client-position">Business Owner</span>
+    </div>
+    </div>
+  </section>
+  <section class="footer-gallery" id="projects">
+    <img src="./images/desktop/image-gallery-milkbottles.jpg" draggable="false" alt="image-gallery-milkbottles">
+    <img src="./images/desktop/image-gallery-orange.jpg" draggable="false" alt="image-gallery-orange">
+    <img src="./images/desktop/image-gallery-cone.jpg" draggable="false" alt="image-gallery-cone">
+    <img src="./images/desktop/image-gallery-sugarcubes.jpg" draggable="false" alt="image-gallery-sugarcubes">
+  </section>
+  <footer id="contact">
+    <h1 class="footer-title">Sunnyside</h1>
+    <div class="footer-unorder-list">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <ul>
+        <li><a href="#"><img src="./images/icon-facebook.svg" alt="icon-facebook"></a></li>
+        <li><a href="#"><img src="./images/icon-instagram.svg" alt="icon-instagram"></a></li>
+        <li><a href="#"><img src="./images/icon-twitter.svg" alt="icon-twitter"></a></li>
+        <li><a href="#"><img src="./images/icon-pinterest.svg" alt="icon-pinterest"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById("open-menu");
+    const closeBtn = document.getElementById("close-menu");
+    const nav = document.querySelector("nav");
+    menuBtn.addEventListener('click',() =>{
+    nav.classList.add('active');
+  })
+    closeBtn.addEventListener('click',() =>{
+    nav.classList.remove('active');
+  })
+  </script>
+</body>
+</html>
