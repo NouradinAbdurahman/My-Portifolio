@@ -1,4 +1,4 @@
-.contact {
+/* .contact {
     width: 100%;
     height: 100%;
     background: #eee;
@@ -73,15 +73,6 @@
     outline: none;
 }
 .contact-content-col-right form .submit button {
-    /* background: cyan; */
-    /* width: 25%;
-    padding: 15px;
-    font-size: 20px;
-    background-color: orange;
-    border: 2px solid #999;
-    cursor: pointer;
-    font-weight: bold;
-    color: #555; */
     width: 25%;
     font-size: 16px;
     padding: 15px;
@@ -104,16 +95,101 @@
     -moz-transition: all .9s ease-in-out;
     -ms-transition: all .9s ease-in-out;
     -o-transition: all .9s ease-in-out;
-}
-/* .submit button{
-    width: 25%;
-    padding: 15px;
-    margin-top: 1rem;
-    text-transform: capitalize;
-    border-radius: 10px;
-    border: 2px solid  orange;
-    cursor: pointer;
-    background: #eef;
-    position: relative;
-    color: #555;
 } */
+.sections-title {
+    padding: 0 0 30px 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.sections-intro {
+    font-size: 17px;
+    color: #777;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.contact {
+    background-color: #fff;
+}
+.contact .contact-content {
+    padding: 100px 0;
+
+}
+.contact-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contact-card {
+    margin: 0 10px ;
+    width: 50%;
+}
+.contact-card .name-email  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contact-card .name-email input {
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #f2f2fe;
+}
+.contact-card .name-email input:focus, .contact-card .message textarea:focus {
+    border: 3px solid #8261ee85;
+}
+.contact-card .name-email input::placeholder {
+    text-transform: capitalize;
+}
+.contact-card .message textarea{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background-color: #f2f2fe;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+form [type="submit"] {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #8261ee;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+form [type="submit"]:hover {
+    background-color: #ff589e;
+}

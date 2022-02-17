@@ -28,7 +28,6 @@
 .footer span {
     display: block;
     color: #000;
-    background-color: rgba(153, 153, 153, 0.384);
     text-transform: capitalize;
     padding: 5px;
     margin-top: 1rem;

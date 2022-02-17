@@ -1,3 +1,64 @@
+/* Ipad air pro */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    header .container .logo {
+        padding-left: 70px;
+    }
+    header .container .logo img{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        width: 6%;
+        user-select: none;
+    }
+    footer .container .logo img {
+        display: block;
+        position: absolute;
+        top: 8%;
+        left: 41%;
+        width: 7%;
+        user-select: none;
+    }
+    .portifolio-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+    }
+    
+    .skills-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .contact-card {
+        width: 90%;
+    } 
+}
+
+/*Ipad air  */
+
+@media screen and (min-width:769px) and (max-width:820px){
+    header .container .logo {
+        padding-left: 50px;
+    }
+    header .container .logo img{
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        width: 6%;
+        user-select: none;
+    }
+    footer .container .logo img {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 41%;
+        width: 7%;
+        user-select: none;
+    }
+}
 /* Tablet */
 @media screen and (min-width:480px) and (max-width:768px){
     header .container .logo {
@@ -15,7 +76,7 @@
         display: block;
         position: absolute;
         top: 12%;
-        left: 41%;
+        left: 40%;
         width: 7%;
         user-select: none;
     }
@@ -77,6 +138,11 @@
     .hero .hero-col-left, .hero-col-right {
         width: 50%;
     }
+    .portifolio-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+    }
     .about-me {
         padding: 5rem 0;
     }
@@ -104,7 +170,7 @@
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
     }
-    .contact .contact-content {
+    /* .contact .contact-content {
         margin-top: 5rem;
     }
     .contact .contact-content-col-left {
@@ -131,6 +197,9 @@
     }
     .contact .contact-content-col-right form .submit button {
         width: 50%;
+    } */
+    .contact-card {
+        width: 80%;
     }
 }
 /* Smart Phone */
@@ -266,7 +335,7 @@
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
     }
-    .contact {
+    /* .contact {
         height: 100%;
     }
     .contact-content {
@@ -324,6 +393,16 @@
     }
     .contact .contact-content-col-right form .submit button {
         width: 50%;
+    } */
+    .contact-card {
+        width: 90%;
+    }
+    .contact-card .name-email  {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 30px;
     }
     .footer {
         width: 100%;
@@ -342,7 +421,7 @@
 /* Small Phone */
 @media screen and (min-width:0) and (max-width:359px){
     header .container .logo {
-        padding: 20px;
+        padding-left: 25px;
     }
     /* header .container .logo img, footer .container .logo img{
         display: none;
@@ -356,7 +435,7 @@
         user-select: none;
     }
     header .container .logo a {
-        font-size: 2.2rem;
+        font-size: 2rem;
         padding-left: 1.5rem;
     }
 
@@ -493,7 +572,7 @@
         padding: 2rem;
         font-size: 2rem;
     }
-    .contact {
+    /* .contact {
         height: 100%;
     }
     .contact-content {
@@ -551,6 +630,16 @@
     }
     .contact .contact-content-col-right form .submit button {
         width: 50%;
+    } */
+    .contact-card {
+        width: 95%;
+    }
+    .contact-card .name-email  {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 30px;
     }
     .footer {
         width: 100%;
@@ -568,7 +657,6 @@
         display: block;
         font-size: .7rem;
         color: #000;
-        background-color: rgba(153, 153, 153, 0.384);
         text-transform: capitalize;
         padding: 5px;
         margin-top: 1rem;
