@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML & CSS & JavaScript">
+    <meta name="description" content="Building IndieBrew Landing Page Using HTML & CSS & JavaScript">
+    <link rel="icon" href="./Assets/Icon.png">
+    <meta name="author" content="NOURADDIN ABDURAHMAN ADEN">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="./CSS/singUp.css">
+    <title>Sing Up</title>
+</head>
+<style>
+    .header {
+        background-image: none;
+        background-color: rgb(255, 242, 242);
+    }
+</style>
+<body>
+   <header class="header singUp-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="navBar">
+                    <div class="logo singUp-logo"><a href="./index.html"><img src="./Assets/Logo.svg" draggable="false" alt="logo image"></a></div>
+                    <nav class="nav">
+                        <ul class="unOrderList"> 
+                            <li class="list singUp"><a class="link" href="./index.html"><img src="./Assets/Back Arrow.svg" class="back-arrow" alt="Back Arrow"><span>Back to homepage</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <section class="singUp-form">
+            <div class="singUp-content">
+                <div class="singUp-cards">
+                    <h2 class="singUp-title">Create your personalized feed.</h2>
+                    <p class="singUp-list"><span>Over 20 resources.</span> With resources ranging from Reddit to IndieHackers, we've got all your needs covered.</p>
+                    <p class="singUp-list"><span>Delivered weekly.</span> Every week at exactly Tuesday 12:00 P.M. EST - expect a value-packed digest right in your email.</p>
+                    <p class="singUp-list"><span>Unlimited ideas.</span> With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?</p>
+                </div>
+                <div class="singUp-cards form">
+                    <form action="#">
+                        <h3 class="form-title">Create your IndieBrew Account</h3>
+                        <label for="full-name">Full Name</label> <br>
+                        <input type="text" name="full-name" id="full-name" placeholder="John Doe"> <br>
+                        <label for="email">Email</label> <br>
+                        <input type="email" name="email" id="email" placeholder="john@example.com"> <br>
+                        <label for="password">Password</label> <br>
+                        <input type="password" name="password" id="password" placeholder="At least 8 characters"> <br>
+                        <input type="checkbox" name="checkbox" id="checkbox"> <span class="terms">By creating an account on IndieBrew, you agree <br> to the <a href="#">Terms & Conditions</a>.</span> <br>
+                        <input type="submit" name="submit" id="submit" value="Create an Account">
+                    </form>
+                </div>
+            </div>
+        </section>
+        </div>
+    </header>
+</body>
+</html>
+
+
+           

@@ -1,0 +1,292 @@
+@import url("./style.css");
+
+@media screen  and (max-width: 1440px){
+    .container {
+        max-width: 90%;
+    }
+}
+@media screen  and (max-width: 1024px){
+    header .logo {
+        width: 100%;
+    }
+    .open, .close {
+        display: block;
+        cursor: pointer;
+    }
+    .nav {
+        width: 60%;
+        display: block;
+        position: fixed;
+        content: " ";
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        z-index: 99;
+        background-color: #1b182b;
+        background-color: rgb(3, 59, 128);
+        border-radius: 0 0 0 50%;
+        -webkit-border-radius: 0 0 0 50%;
+        -moz-border-radius: 0 0 0 50%;
+        -ms-border-radius: 0 0 0 50%;
+        -o-border-radius: 0 0 0 50%;
+        transition: all .8s;
+        -webkit-transition: all .8s;
+        -moz-transition: all .8s;
+        -ms-transition: all .8s;
+        -o-transition: all .8s;
+}
+    .open, .close{
+        color: white;
+        font-size: 2rem;
+    }
+    .open {
+        color: black;
+        font-size: 3rem;
+    }
+    .close {
+        position: absolute;
+        content: " ";
+        top: 20px;
+        right: 30px;
+        color: white;
+
+    }
+    .nav .nav-list .nav-item {
+        margin: 1.2rem 0;
+    }
+    .nav .nav-list .nav-item:nth-child(1) {
+        margin-top: 100px;
+    }
+    .nav .nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav .nav-list .nav-item .nav-link {
+        color: whitesmoke;
+    }
+    .nav .singIn-join {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav .singIn-join .btn {
+        margin: 20px auto;
+    }
+    .nav .singIn-join  a {
+        margin-top: 15px;
+        color: whitesmoke;
+    }
+    .show {
+        right: -1px;
+    }
+    .hero {
+        margin-top: 100px;
+        width: 100%;
+        height: auto;
+    }
+    .hero-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 6rem;
+    }
+    .hero-intro {
+        font-size: 2rem;
+    }
+    .hero-content {
+        flex-direction: column;
+    }
+    
+    .hero-col-left {
+        order: 1;
+        padding-top: 500px;
+    }
+    .hero-col-right{
+        order: 0;
+    }
+    .hero-col-right {
+        text-align: start;
+        margin-left: 250px;
+    }
+    .hero-col-right img.image-1,.hero-col-right img.image-2,.hero-col-right img.image-3,.hero-col-right img.image-4 {
+        width: 50%;
+    }
+    footer {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .hero-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 5rem;
+    }
+    .hero-intro {
+        font-size: 1.5rem;
+    }
+    .hero-col-right {
+        text-align: start;
+        margin-left: 200px;
+    }
+}
+
+@media screen  and (max-width: 768px){
+    .container {
+        max-width: 90%;
+    }
+    header .logo {
+        width: 100%;
+    }
+    .hero-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 4rem;
+    }
+    .hero-content {
+        flex-direction: column;
+    }
+    
+    .hero-col-left {
+        order: 1;
+        padding-top: 350px;
+    }
+    .hero-col-right{
+        order: 0;
+    }
+    .hero-col-right {
+        text-align: start;
+        margin-left: 200px;
+    }
+    .hero-col-right img.image-1,.hero-col-right img.image-2,.hero-col-right img.image-3,.hero-col-right img.image-4 {
+        width: 45%;
+    }
+    footer {
+        margin-top: 50px;
+    }
+}
+
+@media screen  and (max-width: 600px){
+    .container {
+        max-width: 95%;
+        margin: auto;
+    }
+    header {
+        padding: 10px 10px;
+    }
+    .hero-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+    }
+    .hero-intro {
+        font-size: 1rem;
+    }
+    .hero-col-left {
+        padding-top: 250px;
+    }
+    .hero-col-right {
+        text-align: start;
+        margin-left: 120px;
+    }
+    .email #email{
+        width: 100%;
+    }
+    .email #submit{
+        width: 100%;
+        margin: 20px 0;
+    }
+    footer {
+        margin-bottom: 1px;
+    }
+    footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    footer .social-media {
+        width: 100%;
+        order: 1;
+        padding-bottom: 50px;
+    }
+    footer .help {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px 0;
+    }
+}
+
+@media screen  and (max-width: 480px){
+    .hero-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+    }
+    .hero-intro {
+        font-size: 1rem;
+    }
+    .hero-col-left {
+        padding-top: 250px;
+    }
+    .hero-col-right {
+        text-align: start;
+        margin-left: 120px;
+    }
+    .email #email{
+        width: 100%;
+    }
+    .email #submit{
+        width: 100%;
+        margin: 20px 0;
+    }
+    footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    footer .social-media {
+        width: 100%;
+        order: 1;
+        padding-bottom: 50px;
+    }
+    footer .help {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 50px 0;
+    }
+}
+@media screen  and (max-width: 375px){
+    header .logo {
+        width: 90%;
+    }
+    header .logo img {
+        width: 40%;
+        margin-top: 5px;
+    }
+    header .logo button {
+        padding: 9px;
+    }
+    .hero-col-right img.image-1,.hero-col-right img.image-2,.hero-col-right img.image-3,.hero-col-right img.image-4 {
+        width: 50%;
+    }
+    .hero-col-left {
+        order: 1;
+        padding-top: 200px;
+    }
+    .hero-col-right {
+        text-align: start;
+        margin-left: 100px;
+    }
+    footer .social-media ul li a {
+        font-size: 1rem;
+    }
+}
+@media screen  and (max-width: 320px) {
+    .hero-col-right {
+        text-align: start;
+        margin-left: 90px;
+    }
+}
