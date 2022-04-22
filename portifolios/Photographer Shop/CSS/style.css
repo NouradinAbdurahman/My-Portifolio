@@ -24,7 +24,6 @@ body{
 }
 .Header{
     width: 100%;
-    height: 60px;
     position: fixed;
     z-index: 10;
     background-color: rgba(0,0,0,0.5);
@@ -60,15 +59,13 @@ body{
     width: 100%;
     
 }
-
-/* .Header .Container .Header-content{
-    overflow: hidden;
-} */
 .Header .nav{
     width: 60%;
     list-style: none;
     float: left;
     text-align: right;
+    /* background-color: #6195FF; */
+    padding: 8px;
 }
 .Header .Container .Header-content .nav > li{
     display: inline-block;
@@ -407,6 +404,13 @@ body{
     }
     .team .team-item.mg{
         margin: 20px 0;
+    }
+    .blog {
+        display: none;
+    }
+    .blog-content{
+        display: flex;
+        /* flex-direction: column; */
     }
     .blog .blog-item{
         width: 100%;

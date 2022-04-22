@@ -1,14 +1,10 @@
 .blog{
     background-color: #f9f9f9;
+    height: 100vh;
 }
 .blog-content{
-    overflow: hidden;
-}
-.blog-item{
-    width: 30%;
-    float: left;
-    border: 1px solid #f9f9f9;
-    background-color: #fff;
+    display: flex;
+    flex-direction: row;
 }
 .blog-item.mg{
     margin: 0 5%;
@@ -33,10 +29,11 @@
 .blog-item-content{
    padding: 20px;
 }
-.blog-item-title{
+.blog-item-content .blog-item-title{
     margin: 10px 0;
+    font-size: 1rem;
 } 
-.blog-item-desc{
+.blog-item-content  .blog-item-desc{
     margin: 10px 0;
     color: #999;
     line-height: 1.5;

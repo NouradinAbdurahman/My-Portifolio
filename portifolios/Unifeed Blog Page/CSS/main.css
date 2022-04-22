@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.open {
+    display: none;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+header nav .unOrderList {
+    list-style-type: none;
+}
+header nav .unOrderList .list {
+    display: inline-block;
+    padding: 25px;
+
+}
+header nav .unOrderList .list .link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #555;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    padding: 20px 5px ;
+}
+header nav .unOrderList .list:last-child {
+    color: black;
+    background-color: orange;
+    font-weight: bolder;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+header nav .unOrderList .list .link:last-child {
+    color: black;
+    font-size: 19px;
+}
+.hero-card {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero-card .card-left {
+    width: 35%;
+}
+.hero-card .card-right {
+    padding: 20px;
+    width: 75%;
+    margin-left: 3%;
+}
+.hero-card img {
+    width: 100%;
+}
+.hero-card .title {
+    font-size: 3rem;
+    padding: 10px 0 30px 0;
+}
+.hero-card .desc {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #555;
+    padding-bottom: 30px;
+}
+.user-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-content .user-role {
+    font-size: 20px;
+    color: #555;
+    text-align: start;
+}
+.user-content .user-role span {
+    font-weight: bolder;
+    color: black;
+}
+.user-image {
+    width: 7%;
+}
+.user-image img {
+    width: 80%;
+}
+
+/* Articals */
+.articals-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 100px;
+}
+.articals-card {
+    background-color: #fff;
+}
+.articals-card .articals-title {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+.articals-card .articals-desc {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #555;
+    padding-bottom: 20px;
+}
+.articals-image { 
+    width: 100%;
+}
+.articals-image img {
+    width: 100%;
+}
+.articals-card .user-image {
+    width: 15%;
+}
+/* Articals */
+
+/* Footer */
+.footer {
+    margin-top: 100px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.copyright p {
+    color: #555;
+}
+/* Footer */
+
+/* Responsive */
+@media screen and (min-width: 820px) and (max-width: 1365px){
+    .container {
+        max-width: 90%;
+    }
+    .hero-card .card-left {
+        width: 35%;
+    }
+    .card-left img {
+        margin-top: 50px;
+    }
+    .hero-card .title {
+        font-size: 2rem;
+        padding: 10px 0 20px 0;
+    }
+    .user-image {
+        width: 8%;
+    }
+    .user-image img {
+        width: 100%;
+    }
+    .user-content .user-role {
+        margin-left: 15px;
+    }
+    .articals-card .articals-title {
+        font-size: 1.5rem;
+    }
+    .articals-card .articals-desc {
+        font-size: 1.1rem;
+    }
+    .footer {
+        margin-top: 80px;
+    }
+    .footer-content {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 90%;
+    }
+    header nav .unOrderList .list {
+        display: inline-block;
+        padding: 15px;
+
+    }
+    .hero-card .card-left {
+        width: 35%;
+    }
+    .card-left img {
+        margin-top: 50px;
+    }
+    .hero-card .title {
+        font-size: 2rem;
+        padding: 10px 0 20px 0;
+    }
+    .hero-card .desc {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        color: #555;
+        padding-bottom: 30px;
+    }
+    .user-image {
+        width: 8%;
+    }
+    .user-image img {
+        width: 100%;
+    }
+    .user-content .user-role {
+        margin-left: 15px;
+    }
+    .articals-card .articals-title {
+        font-size: 1.5rem;
+    }
+    .articals-card .articals-desc {
+        font-size: 1rem;
+    }
+    .footer {
+        margin-top: 80px;
+    }
+    .footer-content {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+    nav.active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .open {
+        cursor: pointer;
+        display: block;
+        font-size: 2rem;
+    }
+    .header-content {
+        padding: 25px 0;
+    }
+    nav {
+        opacity: 0;
+        visibility: hidden;
+        background-color: rgb(248, 249, 228);
+        background-color: #fff;
+        position: absolute;
+        content: " ";
+        width: 100%;
+        top: 10%;
+        right: 0%;
+        z-index: 999;
+        border-bottom-left-radius: 50px;
+        transition: opacity .3s ease-in-out;
+        -webkit-transition: opacity .3s ease-in-out;
+        -moz-transition: opacity .3s ease-in-out;
+        -ms-transition: opacity .3s ease-in-out;
+        -o-transition: opacity .3s ease-in-out;
+    }
+    header nav  .unOrderList  {
+        padding: 20px 0;
+    }
+    header nav  .unOrderList .list {
+       display: block;
+       width: 50%;
+       margin: auto;
+       text-align: center;
+    }
+    .hero-card .title {
+        font-size: 1.5rem;
+        padding: 10px 0 20px 0;
+    }
+    .hero-card {
+        flex-direction: column;
+    }
+    .articals-cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin-top: 100px;
+    }
+    .hero-card .card-left {
+        width: 100%;
+    }
+    .hero-card .card-right {
+        width: 100%;
+        padding: 0px;
+        margin-left: 3%;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright p {
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 350px){
+    nav {
+        top: 15%;
+    }
+    .hero-card .title {
+        font-size: 1.2rem;
+        padding: 10px 0 20px 0;
+    }
+    .hero-card .desc {
+        font-size: 1rem;
+    }
+    .articals-card .articals-title {
+        font-size: 1.2rem;
+        padding: 20px 0;
+    }
+    .user-content .user-role {
+        font-size: 17px;
+    }
+    .user-content .user-role span {
+        font-size: 1rem;
+        font-weight: bolder;
+        color: black;
+    }
+    .copyright p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}

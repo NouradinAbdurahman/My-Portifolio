@@ -60,6 +60,7 @@
     display: inline-block;
     width: 40px;
     height: 40px;
+    line-height: 42px;
     background-color: #6195ff;
     color: white;
     position: relative;
@@ -69,7 +70,8 @@
     transition-delay: 0.3s;
 }
 .layer-content a i{
-    line-height: 40px;
+    line-height: 14px;
+    background-color: #6195ff;
 }
 .portfolio-item:hover .layer-content-title,
 .portfolio-item:hover .layer-content a,
