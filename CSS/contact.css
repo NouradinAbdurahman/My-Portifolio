@@ -136,6 +136,9 @@
     width: 100%;
     margin-bottom: 30px;
 }
+.contact-card input, .contact-card textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .contact-card .name-email input {
     width: 100%;
     padding: 20px;
@@ -150,6 +153,7 @@
 }
 .contact-card .name-email input:focus, .contact-card .message textarea:focus {
     border: 3px solid #8261ee85;
+    border: 3px solid rgba(255, 166, 0, 0.808);;
 }
 .contact-card .name-email input::placeholder {
     text-transform: capitalize;

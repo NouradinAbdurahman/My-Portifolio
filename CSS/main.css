@@ -190,6 +190,7 @@ header .logo a {
     width: 100%;
 }
 .scrollUp {
+    display: none;
     position: fixed;
     content: " ";
     width: 3rem;
