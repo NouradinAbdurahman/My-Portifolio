@@ -10,12 +10,21 @@ mobilebtnExit.addEventListener('click',() =>{
 })
 
 
-// Scroll To Tup
+// Scroll To Top
 const btnScrollToTup = document.querySelector(".scrollUp");
+
+window.onscroll = () => {
+    if(window.scrollY >= 600) {
+        btnScrollToTup.style.display = "block";
+    } else  {
+        btnScrollToTup.style.display = "none";
+    }
+}
+
 btnScrollToTup.addEventListener("click",() => {
     window.scrollTo ({
         top:0,
         left:0,
         behavior: "smooth"
-    })    
-})
+    });    
+});
