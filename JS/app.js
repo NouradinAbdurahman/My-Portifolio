@@ -3,7 +3,7 @@ const mobilebtn = document.getElementById("mobile-cta")
 const nav = document.querySelector('.navbar')
 const mobilebtnExit = document.getElementById('mobile-exit');
 mobilebtn.addEventListener('click',() =>{
-    nav.classList.add('menu-btn');
+    nav.classList.toggle('menu-btn');
 })
 mobilebtnExit.addEventListener('click',() =>{
     nav.classList.remove('menu-btn');
