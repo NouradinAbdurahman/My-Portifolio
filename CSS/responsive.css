@@ -260,7 +260,7 @@
         position: absolute;
         top: 100%;
         right: 0;
-        height: 50vh;
+        height: 60vh;
         z-index: 999;
         background: rgb(225, 225, 247);
     }
