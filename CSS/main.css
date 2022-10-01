@@ -135,6 +135,7 @@ header .logo a {
     margin-bottom: 1.5rem;
     line-height: 1.6;
     color: #555;
+    font-family: 'Poppins', sans-serif;
 }
 .hero-col-left, .hero-col-right {
     width: 50%;
